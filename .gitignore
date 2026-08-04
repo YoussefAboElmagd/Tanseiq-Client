@@ -1,0 +1,65 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (uncomment if you want to ignore)
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Native (NDK/CMake) build cache — regenerated on every build
+**/.cxx/
+
+# Android signing (never commit)
+android/app/*.jks
+android/key.properties
+
+# ── Generated files (rebuild with build_runner) ──────────────
+
+# Freezed / JsonSerializable / Retrofit / Injectable
+*.g.dart
+*.freezed.dart
+*.gr.dart
+*.config.dart
+
+# Intl generated localization (rebuild with intl_utils)
+lib/core/intl/generated/
+lib/generated/
+
+# Firebase generated options
+lib/firebase_options.dart

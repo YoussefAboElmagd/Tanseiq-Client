@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>ITSAppUsesNonExemptEncryption</key>
+		<false/>
+		<key>CFBundleDevelopmentRegion</key>
+		<string>$(DEVELOPMENT_LANGUAGE)</string>
+		<key>CFBundleDisplayName</key>
+		<string>Tanseiq</string>
+
+		<!-- Photo Library Permissions -->
+		<key>NSPhotoLibraryAddUsageDescription</key>
+		<string>Tanseiq saves photos to your library when you capture images while documenting camp conditions or recording utility meter readings.</string>
+		<key>NSPhotoLibraryUsageDescription</key>
+		<string>Tanseiq accesses your photo library so you can attach existing images when submitting complaints, documenting camp conditions, or uploading equipment and meter reading photos. For example, you can choose a saved photo of a damaged facility to include in a complaint report.</string>
+
+		<!-- Location Permission -->
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>Tanseiq uses your location to verify you are within the required area before submitting camp reports, and to attach GPS coordinates to utility hypothesis submissions. For example, your location is checked when editing a camp entry to confirm you are within 50 meters of the site.</string>
+
+		<!-- Additional File Access Permissions for iOS -->
+		<key>NSDocumentsFolderUsageDescription</key>
+		<string>Tanseiq accesses your documents folder so you can attach PDFs and Word documents when submitting camp reports, support requests, or survey responses.</string>
+		<key>NSDownloadsFolderUsageDescription</key>
+		<string>Tanseiq accesses your downloads folder so you can attach downloaded files such as PDFs and reports when submitting requests or surveys.</string>
+		<key>NSDesktopFolderUsageDescription</key>
+		<string>Tanseiq accesses your desktop folder so you can attach files such as PDFs and documents when submitting reports or support requests.</string>
+
+		<!-- Camera Access -->
+		<key>NSCameraUsageDescription</key>
+		<string>Tanseiq uses your camera to photograph camp facilities, document complaints, and capture utility meter readings. For example, you can take a photo of a damaged tent or a water meter to include in a report submission.</string>
+
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Tanseiq uses your location to verify you are within the required area before submitting camp reports, and to attach GPS coordinates to utility hypothesis submissions. For example, your location is checked when editing a camp entry to confirm you are within 50 meters of the site.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Tanseiq uses your location in the background to support continuous verification when submitting camp reports that require on-site GPS confirmation.</string>
+
+		<key>CFBundleExecutable</key>
+		<string>$(EXECUTABLE_NAME)</string>
+		<key>CFBundleIdentifier</key>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+		<key>CFBundleInfoDictionaryVersion</key>
+		<string>6.0</string>
+		<key>CFBundleName</key>
+		<string>com.mdarj.tanseiq</string>
+		<key>CFBundlePackageType</key>
+		<string>APPL</string>
+		<key>CFBundleShortVersionString</key>
+		<string>$(FLUTTER_BUILD_NAME)</string>
+		<key>CFBundleSignature</key>
+		<string>????</string>
+		<key>CFBundleVersion</key>
+		<string>$(FLUTTER_BUILD_NUMBER)</string>
+		<key>LSRequiresIPhoneOS</key>
+		<true />
+		<key>UILaunchStoryboardName</key>
+		<string>LaunchScreen</string>
+		<key>UIMainStoryboardFile</key>
+		<string>Main</string>
+		<key>UISupportedInterfaceOrientations</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+		<key>UISupportedInterfaceOrientations~ipad</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationPortraitUpsideDown</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+		<key>CADisableMinimumFrameDurationOnPhone</key>
+		<true />
+		<key>UIApplicationSupportsIndirectInputEvents</key>
+		<true />
+		<key>UIStatusBarHidden</key>
+		<false />
+
+		<!-- For iOS 14+ Photo Library -->
+		<key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
+		<true />
+	</dict>
+</plist>

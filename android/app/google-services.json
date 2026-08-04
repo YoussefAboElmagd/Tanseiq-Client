@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "417441379493",
+    "project_id": "tanseiq-51e41",
+    "storage_bucket": "tanseiq-51e41.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417441379493:android:61473704c3ecec6e8bc94c",
+        "android_client_info": {
+          "package_name": "com.mdarj.tansiq"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYKKKfI2pd5ChrB-N5XMVjv2GAwFX3_bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
